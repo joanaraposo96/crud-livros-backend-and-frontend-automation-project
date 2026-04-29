@@ -36,7 +36,7 @@ npm install @faker-js/faker
 ## 🔌 Backend API Setup
 This test suite depends on a backend API running locally 👉 [CRUD Livros Expandido](https://github.com/brunonf15/crud-livros-expandido).
 
-1. **Clone the repository and Run the API**: By default, the API runs at **http://localhost:3000**
+1. **Clone the repository and Run the API** (by default, the API runs at **http://localhost:3000**)
 ```bash
 git clone https://github.com/brunonf15/crud-livros-expandido.git
 cd brunonf15/crud-livros-expandido
@@ -44,7 +44,7 @@ npm install
 npm start
 ```
 
-2. **Configure Playwright**: Update playwright.config.js
+2. **Configure Playwright** (update playwright.config.js)
 ```bash
 use: {
   baseURL: 'http://localhost:3000'
